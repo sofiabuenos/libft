@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/28 12:08:23 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/10/26 17:11:54 by sofiabuenos      ###   ########.fr       */
+/*   Updated: 2026/11/03 19:49:31 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,5 +89,9 @@ void	ft_bzero(void *s, size_t n);
 ** Return: a pointer to dest.
 */
 void	*ft_memcpy(void *dest, const void *src, size_t n);
+
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strdup(const char *s1);
+size_t	ft_strlen(const char *s);
 
 #endif

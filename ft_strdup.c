@@ -1,0 +1,33 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/26 15:36:21 by sofiabuenos       #+#    #+#             */
+/*   Updated: 2026/10/26 15:53:39 by sofiabuenos      ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+char	*ft_strdup(const char *s1)
+{
+	int		len;
+	int		i;
+	char	*dup;
+
+	len = ft_strlen(s1);
+	dup = (char *)malloc(len + 1);
+	if (!dup)
+		return(NULL);
+	i = 0;
+	while(s1[i])
+	{
+		dup[i] = s1[1];
+		i++;
+	}
+	dup[i] = '\0';
+	return (dup);
+}

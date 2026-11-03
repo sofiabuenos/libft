@@ -1,0 +1,5 @@
+*.o
+*.a
+a.out
+test.txt
+.DS_Store

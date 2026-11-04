@@ -6,13 +6,13 @@
 /*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 15:06:24 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/10/22 15:13:09 by sofiabuenos      ###   ########.fr       */
+/*   Updated: 2026/11/04 12:48:02 by sofiabuenos      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	int	i;
 	int	sign;

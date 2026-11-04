@@ -6,13 +6,13 @@
 /*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 15:40:17 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/10/26 15:33:13 by sofiabuenos      ###   ########.fr       */
+/*   Updated: 2026/11/04 12:56:16 by sofiabuenos      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcat(char * restrict dst, const char * restrict src, size_t dstsize)
+size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
 	size_t	i;
 	size_t	j;

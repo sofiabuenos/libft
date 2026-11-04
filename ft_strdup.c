@@ -6,7 +6,7 @@
 /*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 15:36:21 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/10/26 15:53:39 by sofiabuenos      ###   ########.fr       */
+/*   Updated: 2026/11/04 12:51:41 by sofiabuenos      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ char	*ft_strdup(const char *s1)
 	i = 0;
 	while(s1[i])
 	{
-		dup[i] = s1[1];
+		dup[i] = s1[i];
 		i++;
 	}
 	dup[i] = '\0';

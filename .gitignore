@@ -3,3 +3,5 @@
 a.out
 test.txt
 .DS_Store
+*.gch
+.vscode/

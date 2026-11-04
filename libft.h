@@ -245,4 +245,15 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 */
 char	*ft_strjoin(char const *s1, char const *s2);
 
+/*
+** ft_strtrim - removes from both ends of a string every character that
+** belongs to a given set, in newly allocated memory. Characters in the
+** middle of the string are never removed.
+** @s1: the string to trim.
+** @set: the characters to remove (their order does not matter).
+** Return: the trimmed string (empty if everything is removed), or NULL if
+** s1 or set is NULL or the allocation fails.
+*/
+char	*ft_strtrim(char const *s1, char const *set);
+
 #endif

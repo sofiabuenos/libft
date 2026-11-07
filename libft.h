@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sobueno <sobueno@student.42.fr>            +#+  +:+       +#+        */
+/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/28 12:08:23 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/03 19:49:31 by sobueno          ###   ########.fr       */
+/*   Updated: 2026/11/07 19:03:19 by sofiabuenos      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,21 +27,15 @@ typedef struct s_list
 	struct s_list	*next;
 }					t_list;
 
-/* ---- is... family (character classification) ---- */
-
 /*
-** ft_isalpha - checks whether a character is an alphabetic letter.
-** @c: the character to test, passed as an int (as with the standard isalpha).
-** Return: 1 if c is a letter (a-z or A-Z), 0 otherwise.
+** Layout of this header: first by subject part (Part 1, Part 2), then by
+** family (for Part 1, the libc header the function comes from), and
+** alphabetically inside each family.
 */
-int		ft_isalpha(int c);
 
-/*
-** ft_isdigit - checks whether a character is a decimal digit.
-** @c: the character to test, passed as an int.
-** Return: 1 if c is between '0' and '9', 0 otherwise.
-*/
-int		ft_isdigit(int c);
+/* ======================== PART 1: libc functions ======================== */
+
+/* ---- character tests and conversion (ctype.h) ---- */
 
 /*
 ** ft_isalnum - checks whether a character is alphanumeric.
@@ -51,11 +45,25 @@ int		ft_isdigit(int c);
 int		ft_isalnum(int c);
 
 /*
+** ft_isalpha - checks whether a character is an alphabetic letter.
+** @c: the character to test, passed as an int (as with the standard isalpha).
+** Return: 1 if c is a letter (a-z or A-Z), 0 otherwise.
+*/
+int		ft_isalpha(int c);
+
+/*
 ** ft_isascii - checks whether a character belongs to the ASCII set.
 ** @c: the character to test, passed as an int.
 ** Return: 1 if c is between 0 and 127, 0 otherwise.
 */
 int		ft_isascii(int c);
+
+/*
+** ft_isdigit - checks whether a character is a decimal digit.
+** @c: the character to test, passed as an int.
+** Return: 1 if c is between '0' and '9', 0 otherwise.
+*/
+int		ft_isdigit(int c);
 
 /*
 ** ft_isprint - checks whether a character is printable.
@@ -64,7 +72,12 @@ int		ft_isascii(int c);
 */
 int		ft_isprint(int c);
 
-/* ---- character conversion ---- */
+/*
+** ft_tolower - converts an uppercase letter to lowercase.
+** @c: the character to convert, passed as an int.
+** Return: the lowercase letter if c is in A-Z, c unchanged otherwise.
+*/
+int		ft_tolower(int c);
 
 /*
 ** ft_toupper - converts a lowercase letter to uppercase.
@@ -73,23 +86,7 @@ int		ft_isprint(int c);
 */
 int		ft_toupper(int c);
 
-/*
-** ft_tolower - converts an uppercase letter to lowercase.
-** @c: the character to convert, passed as an int.
-** Return: the lowercase letter if c is in A-Z, c unchanged otherwise.
-*/
-int		ft_tolower(int c);
-
-/* ---- memory functions ---- */
-
-/*
-** ft_memset - fills the first n bytes of a memory area with a given byte.
-** @s: the memory area to fill.
-** @c: the byte value to write (converted to unsigned char).
-** @n: the number of bytes to fill.
-** Return: s.
-*/
-void	*ft_memset(void *s, int c, size_t n);
+/* ---- memory (string.h) ---- */
 
 /*
 ** ft_bzero - sets the first n bytes of a memory area to zero.
@@ -98,6 +95,24 @@ void	*ft_memset(void *s, int c, size_t n);
 ** Return: nothing.
 */
 void	ft_bzero(void *s, size_t n);
+
+/*
+** ft_memchr - locates the first occurrence of a byte in a memory area.
+** @s: the memory area to search.
+** @c: the byte to look for (converted to unsigned char).
+** @n: the number of bytes to examine.
+** Return: a pointer to the matching byte, or NULL if it is not found.
+*/
+void	*ft_memchr(const void *s, int c, size_t n);
+
+/*
+** ft_memcmp - compares the first n bytes of two memory areas.
+** @s1: the first memory area (read as unsigned char).
+** @s2: the second memory area (read as unsigned char).
+** @n: the number of bytes to compare.
+** Return: 0 if equal, <0 if s1 is smaller, >0 if s1 is larger.
+*/
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
 
 /*
 ** ft_memcpy - copies n bytes from the memory area src to the memory area
@@ -122,51 +137,31 @@ void	*ft_memcpy(void *dest, const void *src, size_t n);
 void	*ft_memmove(void *dest, const void *src, size_t n);
 
 /*
-** ft_memchr - locates the first occurrence of a byte in a memory area.
-** @s: the memory area to search.
-** @c: the byte to look for (converted to unsigned char).
-** @n: the number of bytes to examine.
-** Return: a pointer to the matching byte, or NULL if it is not found.
+** ft_memset - fills the first n bytes of a memory area with a given byte.
+** @s: the memory area to fill.
+** @c: the byte value to write (converted to unsigned char).
+** @n: the number of bytes to fill.
+** Return: s.
 */
-void	*ft_memchr(const void *s, int c, size_t n);
+void	*ft_memset(void *s, int c, size_t n);
+
+/* ---- strings (string.h) ---- */
 
 /*
-** ft_memcmp - compares the first n bytes of two memory areas.
-** @s1: the first memory area (read as unsigned char).
-** @s2: the second memory area (read as unsigned char).
-** @n: the number of bytes to compare.
-** Return: 0 if equal, <0 if s1 is smaller, >0 if s1 is larger.
+** ft_strchr - locates the first occurrence of a character in a string.
+** The terminating '\0' is considered part of the string.
+** @s: the string to search.
+** @c: the character to look for (converted to char).
+** Return: a pointer to the first match, or NULL if c is not found.
 */
-int		ft_memcmp(const void *s1, const void *s2, size_t n);
+char	*ft_strchr(const char *s, int c);
 
 /*
-** ft_calloc - allocates memory for count elements of size bytes each and
-** sets every byte of it to zero.
-** @count: the number of elements.
-** @size: the size in bytes of each element.
-** Return: a pointer to the allocated memory, or NULL if allocation fails.
+** ft_strdup - duplicates a string into newly allocated memory.
+** @s1: the string to duplicate.
+** Return: a pointer to the new string, or NULL if allocation fails.
 */
-void	*ft_calloc(size_t count, size_t size);
-
-/* ---- string functions ---- */
-
-/*
-** ft_strlen - counts the length of a null-terminated string.
-** @s: the string to measure.
-** Return: the number of characters before the terminating '\0'.
-*/
-size_t	ft_strlen(const char *s);
-
-/*
-** ft_strlcpy - copies a string into a buffer of limited size. At most
-** dstsize - 1 characters are copied and dst is '\0'-terminated (unless
-** dstsize is 0).
-** @dst: the destination buffer.
-** @src: the string to copy.
-** @dstsize: the full size of the dst buffer.
-** Return: the length of src. If it is >= dstsize, the copy was truncated.
-*/
-size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
+char	*ft_strdup(const char *s1);
 
 /*
 ** ft_strlcat - appends src to the end of dst, never letting the total
@@ -180,22 +175,22 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize);
 
 /*
-** ft_strchr - locates the first occurrence of a character in a string.
-** The terminating '\0' is considered part of the string.
-** @s: the string to search.
-** @c: the character to look for (converted to char).
-** Return: a pointer to the first match, or NULL if c is not found.
+** ft_strlcpy - copies a string into a buffer of limited size. At most
+** dstsize - 1 characters are copied and dst is '\0'-terminated (unless
+** dstsize is 0).
+** @dst: the destination buffer.
+** @src: the string to copy.
+** @dstsize: the full size of the dst buffer.
+** Return: the length of src. If it is >= dstsize, the copy was truncated.
 */
-char	*ft_strchr(const char *s, int c);
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 
 /*
-** ft_strrchr - locates the last occurrence of a character in a string.
-** The terminating '\0' is considered part of the string.
-** @s: the string to search.
-** @c: the character to look for (converted to char).
-** Return: a pointer to the last match, or NULL if c is not found.
+** ft_strlen - counts the length of a null-terminated string.
+** @s: the string to measure.
+** Return: the number of characters before the terminating '\0'.
 */
-char	*ft_strrchr(const char *s, int c);
+size_t	ft_strlen(const char *s);
 
 /*
 ** ft_strncmp - compares at most n characters of two strings, stopping at the
@@ -219,23 +214,45 @@ int		ft_strncmp(const char *s1, const char *s2, size_t n);
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 
 /*
-** ft_strdup - duplicates a string into newly allocated memory.
-** @s1: the string to duplicate.
-** Return: a pointer to the new string, or NULL if allocation fails.
+** ft_strrchr - locates the last occurrence of a character in a string.
+** The terminating '\0' is considered part of the string.
+** @s: the string to search.
+** @c: the character to look for (converted to char).
+** Return: a pointer to the last match, or NULL if c is not found.
 */
-char	*ft_strdup(const char *s1);
+char	*ft_strrchr(const char *s, int c);
 
-/* ---- additional functions ---- */
+/* ---- number conversion and allocation (stdlib.h) ---- */
 
 /*
-** ft_substr - extracts a substring of s, in newly allocated memory.
-** @s: the string to extract from.
-** @start: the index in s where the substring begins.
-** @len: the maximum length of the substring.
-** Return: the new string (empty if start is past the end of s), or NULL if
-** s is NULL or the allocation fails.
+** ft_atoi - converts the beginning of a string to an int. Skips leading
+** whitespace, accepts one optional '+' or '-' sign, then reads decimal
+** digits up to the first character that is not a digit.
+** @str: the string to convert.
+** Return: the converted value (0 if there are no digits).
 */
-char	*ft_substr(char const *s, unsigned int start, size_t len);
+int		ft_atoi(const char *str);
+
+/*
+** ft_calloc - allocates memory for count elements of size bytes each and
+** sets every byte of it to zero.
+** @count: the number of elements.
+** @size: the size in bytes of each element.
+** Return: a pointer to the allocated memory, or NULL if allocation fails.
+*/
+void	*ft_calloc(size_t count, size_t size);
+
+/* ==================== PART 2: additional functions ==================== */
+
+/* ---- building new strings (allocate memory) ---- */
+
+/*
+** ft_itoa - converts an integer to its decimal representation, in newly
+** allocated memory. Negative numbers get a leading '-'.
+** @n: the integer to convert.
+** Return: the new string, or NULL if the allocation fails.
+*/
+char	*ft_itoa(int n);
 
 /*
 ** ft_strjoin - concatenates two strings into newly allocated memory.
@@ -244,6 +261,16 @@ char	*ft_substr(char const *s, unsigned int start, size_t len);
 ** Return: the new string (s1 followed by s2), or NULL if allocation fails.
 */
 char	*ft_strjoin(char const *s1, char const *s2);
+
+/*
+** ft_strmapi - applies f to each character of s, in order, and builds a new
+** string from the results. f receives the index of the character and the
+** character itself; s is left unchanged.
+** @s: the string to iterate over.
+** @f: the function to apply to each character.
+** Return: the new string, or NULL if the allocation fails.
+*/
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 
 /*
 ** ft_strtrim - removes from both ends of a string every character that
@@ -255,5 +282,61 @@ char	*ft_strjoin(char const *s1, char const *s2);
 ** s1 or set is NULL or the allocation fails.
 */
 char	*ft_strtrim(char const *s1, char const *set);
+
+/*
+** ft_substr - extracts a substring of s, in newly allocated memory.
+** @s: the string to extract from.
+** @start: the index in s where the substring begins.
+** @len: the maximum length of the substring.
+** Return: the new string (empty if start is past the end of s), or NULL if
+** s is NULL or the allocation fails.
+*/
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+
+/* ---- iterating over a string ---- */
+
+/*
+** ft_striteri - applies f to each character of s, in order. f receives the
+** index of the character and its address, so it can modify s in place.
+** @s: the string to iterate over (it must be modifiable).
+** @f: the function to apply to each character.
+** Return: nothing.
+*/
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
+
+/* ---- writing to a file descriptor ---- */
+
+/*
+** ft_putchar_fd - writes a character to a file descriptor.
+** @c: the character to write.
+** @fd: the file descriptor to write to.
+** Return: nothing.
+*/
+void	ft_putchar_fd(char c, int fd);
+
+/*
+** ft_putendl_fd - writes a string to a file descriptor, followed by a
+** newline.
+** @s: the string to write.
+** @fd: the file descriptor to write to.
+** Return: nothing.
+*/
+void	ft_putendl_fd(char *s, int fd);
+
+/*
+** ft_putnbr_fd - writes an integer, in decimal, to a file descriptor.
+** @n: the integer to write.
+** @fd: the file descriptor to write to.
+** Return: nothing.
+*/
+void	ft_putnbr_fd(int n, int fd);
+
+/*
+** ft_putstr_fd - writes a string to a file descriptor.
+** @s: the string to write.
+** @fd: the file descriptor to write to.
+** Return: nothing.
+*/
+void	ft_putstr_fd(char *s, int fd);
 
 #endif

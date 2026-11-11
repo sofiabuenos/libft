@@ -362,6 +362,15 @@ void			ft_lstadd_back(t_list **lst, t_list *new);
 void			ft_lstadd_front(t_list **lst, t_list *new);
 
 /*
+** ft_lstclear - frees every node of a list from the given node onwards,
+** using del on each content, then sets the list pointer to NULL.
+** @lst: the address of the pointer to the first node to free.
+** @del: the function used to free each node's content.
+** Return: nothing.
+*/
+void			ft_lstclear(t_list **lst, void (*del)(void *));
+
+/*
 ** ft_lstdelone - frees one node: its content with the given function, then
 ** the node itself. The next node is NOT freed or touched.
 ** @lst: the node to free.

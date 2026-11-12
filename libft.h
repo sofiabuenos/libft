@@ -381,11 +381,32 @@ void			ft_lstclear(t_list **lst, void (*del)(void *));
 void			ft_lstdelone(t_list *lst, void (*del)(void *));
 
 /*
+** ft_lstiter - applies a function to the content of each node of a list,
+** from the given node to the end. The list itself is not modified.
+** @lst: the first node to visit.
+** @f: the function applied to the content of each node.
+** Return: nothing.
+*/
+void			ft_lstiter(t_list *lst, void (*f)(void *));
+
+/*
 ** ft_lstlast - finds the last node of a list.
 ** @lst: the first node of the list.
 ** Return: the last node, or NULL if the list is empty.
 */
 t_list			*ft_lstlast(t_list *lst);
+
+/*
+** ft_lstmap - builds a new list by applying a function to the content of each
+** node of a list. The original list is not modified. If an allocation fails,
+** everything created so far is freed with del.
+** @lst: the first node of the list to map.
+** @f: the function applied to each content; returns the new content.
+** @del: the function used to free a new content if something fails.
+** Return: the new list, or NULL if lst or f is NULL or an allocation fails.
+*/
+t_list			*ft_lstmap(t_list *lst, void *(*f)(void *),
+					void (*del)(void *));
 
 /*
 ** ft_lstnew - creates a new node holding the given content. Only the pointer

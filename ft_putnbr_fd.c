@@ -6,7 +6,7 @@
 /*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 15:40:30 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/05 15:46:57 by sofiabuenos      ###   ########.fr       */
+/*   Updated: 2026/11/12 07:53:49 by sofiabuenos      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,13 +14,13 @@
 
 void	ft_putnbr_fd(int n, int fd)
 {
-	unsigned int	nb;
+	long	nb;
 
 	nb = n;
-	if (n < 0)
+	if (nb < 0)
 	{
 		ft_putchar_fd('-', fd);
-		nb = -n;
+		nb = -nb;
 	}
 	while (nb >= 10)
 	{

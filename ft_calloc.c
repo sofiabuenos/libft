@@ -6,7 +6,7 @@
 /*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/26 17:00:02 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/10/26 17:20:31 by sofiabuenos      ###   ########.fr       */
+/*   Updated: 2026/11/11 19:24:28 by sofiabuenos      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,15 @@
 void	*ft_calloc(size_t count, size_t size)
 {
 	void	*ptr;
+	size_t	total_size;
 
-	ptr = (void *)malloc(size * count);
+	if (size != 0 && count > SIZE_MAX / size)
+		return (NULL);
+	total_size = count * size;
+	ptr = (void *)malloc(total_size);
 	if (!ptr)
 		return (NULL);
-	ft_bzero(ptr, count * size);
+	ft_bzero(ptr, total_size);
 	return (ptr);
 }
 

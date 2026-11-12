@@ -19,6 +19,7 @@
 # include <ctype.h>
 # include <string.h>
 # include <stdlib.h>
+# include <stdint.h>
 
 /*list structure*/
 typedef struct s_list

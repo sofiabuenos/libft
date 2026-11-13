@@ -257,6 +257,17 @@ void			*ft_calloc(size_t count, size_t size);
 char			*ft_itoa(int n);
 
 /*
+** ft_split - splits a string into words, using a character as delimiter.
+** Consecutive delimiters, and delimiters at either end, produce no empty
+** words. Every word and the array itself are newly allocated.
+** @s: the string to split.
+** @c: the delimiter character.
+** Return: a NULL-terminated array of words, or NULL if s is NULL or any
+** allocation fails (in which case nothing is left allocated).
+*/
+char			**ft_split(char const *s, char c);
+
+/*
 ** ft_strjoin - concatenates two strings into newly allocated memory.
 ** @s1: the prefix string.
 ** @s2: the suffix string.

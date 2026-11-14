@@ -6,7 +6,7 @@
 /*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/12 14:52:01 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/12 15:57:59 by sofiabuenos      ###   ########.fr       */
+/*   Updated: 2026/11/14 10:10:00 by sofiabuenos      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ char	**ft_split(char const *s, char c)
 	int		i;
 	int		j;
 
-	if (!s || !c)
+	if (!s)
 		return (NULL);
 	arr = (char **)ft_calloc((ft_wordcount(s, c) + 1), sizeof(char *));
 	if (!arr)

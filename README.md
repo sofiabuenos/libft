@@ -11,7 +11,7 @@
   ╚══════╝╚═╝╚═════╝ ╚═╝        ╚═╝
 ```
 
-### My very first own library
+### My very first library
 
 *A static C library of general-purpose functions, rebuilt from scratch.*
 
@@ -21,9 +21,6 @@
 ![school](https://img.shields.io/badge/42-curriculum-000000?style=flat-square)
 
 </div>
-
-> [!NOTE]
-> **Work in progress.** Everything in the reference below is written, except the entries marked 🚧: `ft_split` and the linked-list functions (Part 3), which are still being implemented.
 
 ---
 
@@ -51,7 +48,7 @@ The library is split in three parts, as the subject asks:
 |:---:|---|---|
 | **1** | **Re-implementations of libc functions.** Same prototype and behaviour as the original, only the name changes (`strlen` → `ft_strlen`). | `ft_memcpy`, `ft_strlcpy`, `ft_atoi`, `ft_calloc` |
 | **2** | **Additional functions** that are not in the libc, or exist in a different form. | `ft_substr`, `ft_strtrim`, `ft_itoa`, `ft_putnbr_fd` |
-| **3** | **Linked-list functions**, built on a `t_list` node. | `ft_lstnew`, `ft_lstadd_back`, `ft_lstmap` 🚧 |
+| **3** | **Linked-list functions**, built on a `t_list` node. | `ft_lstnew`, `ft_lstadd_back`, `ft_lstmap` |
 
 Everything is packaged into one **static library**, `libft.a`, so any future project can link against it.
 
@@ -168,7 +165,7 @@ Every prototype is declared, and documented, in [`libft.h`](libft.h). The functi
 | Function | Description |
 |---|---|
 | `ft_itoa` | Converts an integer to its decimal string, negative numbers included. |
-| `ft_split` 🚧 | Splits a string on a delimiter character into a `NULL`-terminated array of newly allocated strings. |
+| `ft_split` | Splits a string on a delimiter character into a `NULL`-terminated array of newly allocated strings. |
 | `ft_strjoin` | Concatenates two strings into a new one. |
 | `ft_strmapi` | Applies a function to every character (index and character as arguments) and builds a new string from the results. |
 | `ft_strtrim` | Removes a set of characters from both ends of a string. |
@@ -189,7 +186,7 @@ Every prototype is declared, and documented, in [`libft.h`](libft.h). The functi
 | `ft_putnbr_fd` | Writes an integer in decimal. |
 | `ft_putstr_fd` | Writes a string. |
 
-### Part 3: linked lists 🚧
+### Part 3: linked lists
 
 Built on this node, declared in `libft.h`:
 
@@ -205,15 +202,15 @@ typedef struct s_list
 
 | Function | Description |
 |---|---|
-| `ft_lstnew` 🚧 | Creates a node holding the given content, with `next` set to `NULL`. |
-| `ft_lstadd_front` 🚧 | Adds a node at the beginning of the list. |
-| `ft_lstsize` 🚧 | Counts the nodes of the list. |
-| `ft_lstlast` 🚧 | Returns the last node of the list. |
-| `ft_lstadd_back` 🚧 | Adds a node at the end of the list. |
-| `ft_lstdelone` 🚧 | Frees a node's content with the given function, then the node itself (never the next one). |
-| `ft_lstclear` 🚧 | Deletes a node and all its successors, then sets the list pointer to `NULL`. |
-| `ft_lstiter` 🚧 | Applies a function to the content of every node. |
-| `ft_lstmap` 🚧 | Builds a new list from the results of a function applied to each content; cleans up if an allocation fails. |
+| `ft_lstnew` | Creates a node holding the given content, with `next` set to `NULL`. |
+| `ft_lstadd_front` | Adds a node at the beginning of the list. |
+| `ft_lstsize` | Counts the nodes of the list. |
+| `ft_lstlast` | Returns the last node of the list. |
+| `ft_lstadd_back` | Adds a node at the end of the list. |
+| `ft_lstdelone` | Frees a node's content with the given function, then the node itself (never the next one). |
+| `ft_lstclear` | Deletes a node and all its successors, then sets the list pointer to `NULL`. |
+| `ft_lstiter` | Applies a function to the content of every node. |
+| `ft_lstmap` | Builds a new list from the results of a function applied to each content; cleans up if an allocation fails. |
 
 ---
 
@@ -264,12 +261,13 @@ The test programs are **not part of this repository**. While developing, each fu
 
 ### 🤖 How AI was used
 
-I used **Claude** (Anthropic), through Claude Code, as a study assistant, together with two tutor agents I built myself (see [My study agents](#-my-study-agents)). It was set up not to hand over solutions, and the logic of every function in this library was written by me.
+I used **Claude** (Anthropic), through Claude Code, as a study assistant, together with tutor agents that I designed myself (see [My study agents](#-my-study-agents)). It was set up not to hand over solutions, and the logic of every function in this library was written by me.
 
 **What AI helped with**
 
 - **Learning concepts:** explanations of compilation stages, static versus dynamic libraries, pointers and `void *`, `memcpy` versus `memmove` and memory overlap, `size_t` and unsigned wrap-around, two's complement, why some libc functions take an `int` (`EOF`), Makefile syntax, and linked lists with `t_list **`. It also asked diagnostic questions to check my understanding.
 - **Study planning and note-taking:** my *Code Prof* agent read the subject, listed the rules that would make the project fail and the concepts I needed to learn, and wrote my study plan; my *Escriba* agent organised my raw notes into concept notes.
+- **Defense rehearsal:** my *Defesa* agent read my code and prepared the questions a peer evaluator would ask about it; I answered them from memory and my answers were then checked and corrected. It did not write or change any code.
 - **Tooling and housekeeping:** fixing the Makefile (full source list, header dependency, colour variables), adding `static` to a helper function, fixing Norm formatting issues (spacing, end-of-file newlines, line wrapping), and organising `libft.h` with function descriptions based on the signatures I had already written.
 - **Verification:** writing test programs, kept outside the repository, that compare my functions against the system libc with sanitizers; running `norminette`, `nm -u` and `leaks`.
 - **Code review:** pointing out the file and line of bugs and edge cases (for example integer overflows). I wrote the fixes myself.
@@ -279,13 +277,14 @@ I used **Claude** (Anthropic), through Claude Code, as a study assistant, togeth
 
 ### 🎓 My study agents
 
-42 gives you a subject and no course material, so I built myself two tutors with Claude Code. They run on my own machine and keep their notes in an [Obsidian](https://obsidian.md) vault. Neither of them is allowed to write the code of a project: their job is to make me understand it well enough to write it, and to defend it.
+42 gives you a subject and no course material, so I designed my own tutors: the idea and what each one should do were mine, and I wrote their instructions in conversation with Claude Code. They run on my own machine and keep their notes in an [Obsidian](https://obsidian.md) vault. None of them is allowed to write the code of a project: their job is to make me understand it well enough to write it, and to defend it.
 
 | Agent | What it does |
 |---|---|
 | **Code Prof** | Reads a project's subject and lists the rules that would make it fail. Maps the concepts I need, with sources, and asks short diagnostic questions to find out what I already know. Then writes a study plan sized to my deadline. |
 | **Escriba** | Turns my raw notes (a scratch file, a photo of my notebook) into organised, linked concept notes. |
+| **Defesa** | Reads the code I wrote and asks me, as a demanding peer would, the questions an evaluation could bring up, to find where my code works but I cannot yet explain it. |
 
-Both were used in this project, for the planning and note-taking described above.
+All three were used in this project, for the planning, the note-taking and the defense rehearsal described above.
 
 If you'd like any of my concept notes, just ask me. I'm happy to share them! (Solutions stay out of it, so everyone gets to do their own learning.)

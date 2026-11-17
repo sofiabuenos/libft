@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/08 21:44:42 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/08 22:08:28 by sofiabuenos      ###   ########.fr       */
+/*   Updated: 2026/11/16 21:20:05 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

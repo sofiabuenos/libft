@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/22 15:06:24 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/12 07:58:49 by sofiabuenos      ###   ########.fr       */
+/*   Updated: 2026/11/17 20:17:32 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

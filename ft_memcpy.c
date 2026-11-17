@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/14 11:31:24 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/09/14 15:53:45 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/09/14 11:31:24 by sobueno           #+#    #+#             */
+/*   Updated: 2026/09/14 15:53:45 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

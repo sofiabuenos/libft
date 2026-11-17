@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/12 15:51:28 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/10/12 15:56:36 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/10/12 15:51:28 by sobueno           #+#    #+#             */
+/*   Updated: 2026/10/12 15:56:36 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

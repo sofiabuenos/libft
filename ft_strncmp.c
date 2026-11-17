@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/12 16:24:57 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/10/12 16:33:27 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/10/12 16:24:57 by sobueno           #+#    #+#             */
+/*   Updated: 2026/10/12 16:33:27 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

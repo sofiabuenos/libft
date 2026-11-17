@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/14 15:24:35 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/09/14 15:40:42 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/09/14 15:24:35 by sobueno           #+#    #+#             */
+/*   Updated: 2026/09/14 15:40:42 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

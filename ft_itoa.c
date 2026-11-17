@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/07 18:12:08 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/07 19:08:03 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/11/07 18:12:08 by sobueno           #+#    #+#             */
+/*   Updated: 2026/11/07 19:08:03 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

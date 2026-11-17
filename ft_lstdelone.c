@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/09 15:35:36 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/09 15:42:23 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/11/09 15:35:36 by sobueno           #+#    #+#             */
+/*   Updated: 2026/11/09 15:42:23 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/09/14 15:42:19 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/09/14 15:42:32 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/09/14 15:42:19 by sobueno           #+#    #+#             */
+/*   Updated: 2026/09/14 15:42:32 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

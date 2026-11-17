@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 20:48:52 by sobueno           #+#    #+#             */
-/*   Updated: 2026/11/04 12:52:19 by sofiabuenos      ###   ########.fr       */
+/*   Updated: 2026/11/04 12:52:19 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

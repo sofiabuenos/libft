@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/05 14:39:15 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/05 14:40:22 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/11/05 14:39:15 by sobueno           #+#    #+#             */
+/*   Updated: 2026/11/05 14:40:22 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

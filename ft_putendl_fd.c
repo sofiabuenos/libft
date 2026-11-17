@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/05 15:15:49 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/07 19:08:20 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/11/05 15:15:49 by sobueno           #+#    #+#             */
+/*   Updated: 2026/11/07 19:08:20 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

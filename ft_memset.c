@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/28 16:12:44 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/08/28 16:15:28 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/08/28 16:12:44 by sobueno           #+#    #+#             */
+/*   Updated: 2026/08/28 16:15:28 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

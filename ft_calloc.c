@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/26 17:00:02 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/13 17:04:29 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/10/26 17:00:02 by sobueno           #+#    #+#             */
+/*   Updated: 2026/11/13 17:04:29 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

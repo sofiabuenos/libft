@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/26 17:26:29 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/10/26 17:26:32 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/10/26 17:26:29 by sobueno           #+#    #+#             */
+/*   Updated: 2026/10/26 17:26:32 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

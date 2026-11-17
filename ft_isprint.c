@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/28 13:03:22 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/08/28 13:05:38 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/08/28 13:03:22 by sobueno           #+#    #+#             */
+/*   Updated: 2026/08/28 13:05:38 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

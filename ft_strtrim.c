@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/04 16:43:32 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/04 22:34:36 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/11/04 16:43:32 by sobueno           #+#    #+#             */
+/*   Updated: 2026/11/04 22:34:36 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

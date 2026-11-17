@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/22 15:18:37 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/04 12:56:31 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/10/22 15:18:37 by sobueno           #+#    #+#             */
+/*   Updated: 2026/11/04 12:56:31 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

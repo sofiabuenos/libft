@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/12 14:52:01 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/14 10:10:00 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/11/12 14:52:01 by sobueno           #+#    #+#             */
+/*   Updated: 2026/11/14 10:10:00 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

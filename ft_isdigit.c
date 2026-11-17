@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/28 12:53:39 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/08/28 13:01:29 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/08/28 12:53:39 by sobueno           #+#    #+#             */
+/*   Updated: 2026/08/28 13:01:29 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

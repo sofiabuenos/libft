@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/08 20:05:53 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/08 20:55:42 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/11/08 20:05:53 by sobueno           #+#    #+#             */
+/*   Updated: 2026/11/08 20:55:42 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

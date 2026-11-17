@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/12 08:04:36 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/12 08:15:28 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/11/12 08:04:36 by sobueno           #+#    #+#             */
+/*   Updated: 2026/11/12 08:15:28 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/28 16:16:29 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/09/14 15:53:22 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/08/28 16:16:29 by sobueno           #+#    #+#             */
+/*   Updated: 2026/09/14 15:53:22 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

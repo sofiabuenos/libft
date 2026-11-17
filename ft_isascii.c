@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/28 12:59:23 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/08/28 13:00:57 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/08/28 12:59:23 by sobueno           #+#    #+#             */
+/*   Updated: 2026/08/28 13:00:57 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

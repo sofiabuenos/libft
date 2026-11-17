@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sofiabuenos <sofiabuenos@student.42.fr>    +#+  +:+       +#+        */
+/*   By: sobueno <sobueno@student.42porto.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/11/07 18:45:36 by sofiabuenos       #+#    #+#             */
-/*   Updated: 2026/11/07 19:11:16 by sofiabuenos      ###   ########.fr       */
+/*   Created: 2026/11/07 18:45:36 by sobueno           #+#    #+#             */
+/*   Updated: 2026/11/07 19:11:16 by sobueno          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
